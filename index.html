@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<title>Course</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Course Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<style>
+	    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #fffcfc;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+	  height: 200px;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+</style>
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header d-flex flex-row" style="border-radius: 0px;">
+		<div class="header_content d-flex flex-row align-items-center">
+			<!-- Logo -->
+			<div class="logo_container">
+				<div class="logo" style="position:fixed; right: 20px;">
+					
+					<span class="nnn kkk"><a href="index.html" style="text-decoration: none;color: black; font-weight: 500;font-size: x-large;">دبیرستان غیردولتی پرفسوررضا</a></span>
+				</div>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav_container" style="position: absolute; left: 100px; ">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item"><a href="index.html">خانه</a></li>
+						<li class="main_nav_item"><a href="teachers.html">درباره ما</a></li>
+						<li class="main_nav_item"><a href="elements.html">گالری</a></li>
+						<li class="main_nav_item"><a href="news.html"></a></li>
+						<li class="main_nav_item"><a href="contact.html">ارتباط با ما</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="header_side d-flex flex-row justify-content-center align-items-center" >
+			<span dir="ltr" style="font-size: 20px;">013 32733320</span>
+			<img src="images/phone-call.svg" alt="" style="height: 100px;">
+		</div>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container" style="position: absolute; left: 10px;" >
+			<i class="fas fa-bars trans_200"></i>
+		</div>
+
+	</header>
+	
+	<!-- Menu -->
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="index.html">خانه</a></li>
+					<li class="menu_item menu_mm"><a href="teachers.html">درباره ما</a></li>
+					<li class="menu_item menu_mm"><a href="elements.html">گالری</a></li>
+					<li class="menu_item menu_mm"><a href="contact.html">ارتباط با ما</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+
+		<!-- Hero Slider -->
+		<div class="hero_slider_container" dir="ltr">
+			<div class="hero_slider owl-carousel">
+				
+				<!-- Hero Slide -->
+				<div class="hero_slide">
+					<div class="hero_slide_background" style="background-image:url(icons/img1.png); filter:blur(1);"></div>
+					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+						<div class="hero_slide_content text-center" dir="rtl">
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut" class="etext" >برگزاری امتحانات میان ترم</h1>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Hero Slide -->
+				<div class="hero_slide">
+					<div class="hero_slide_background" style="background-image:url(icons/varzha1.png)"></div>
+					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+						<div class="hero_slide_content text-center">
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">برگزاری مسابقات ورزشی
+						</div>
+					</div>
+				</div>
+				
+				<!-- Hero Slide -->
+
+			</div>
+
+			<div class="hero_slider_left hero_slider_nav trans_200"><span class="trans_200">prev</span></div>
+			<div class="hero_slider_right hero_slider_nav trans_200"><span class="trans_200">next</span></div>
+		</div>
+
+	</div>
+
+	<swiper-container class="mySwiper" pagination="true" pagination-clickable="false" navigation="true" space-between="0"
+    centered-slides="true" autoplay-delay="5000" autoplay-disable-on-interaction="false">
+    <swiper-slide class="slide_lider" style="background-color: #48CAE4;">دبیرستان پسرانه دوره دوم</swiper-slide>
+    <swiper-slide class="slide_lider" style="background-color: #48CAE4;">دبیرستان پسرانه دوره اول</swiper-slide>
+    <swiper-slide class="slide_lider"style="background-color: #48CAE4;">دبیرستان دخترانه دوره دوم</swiper-slide>
+    <swiper-slide class="slide_lider" style="background-color: #48CAE4;">دبیرستان دخترانه دوره اول</swiper-slide>
+  </swiper-container>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+	<!-- Services -->
+
+	<div class="services page_section">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>امکانات</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row services_row" style="display: flex; align-content:space-evenly;">
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="icons/podium.svg" alt="" class="emi" style="color: red;">
+					</div>
+					<h3>سالن اجتماعات</h3>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="icons/prayer_times.svg" alt="" class="emi">
+					</div>
+					<h3>نماز خانه</h3>
+				</div>
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="icons/computer.svg" alt="" class="emi">
+					</div>
+					<h3>سایت کامپیوتر</h3>
+				</div>
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="icons/biotech.svg" alt="" class="emi">
+					</div>
+					<h3>آزمایشگاه</h3>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="icons/sports_and_outdoors.svg" alt="" class="emi">
+					</div>
+					<h3>ورزشگاه</h3>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="icons/tv_with_assistant.svg" alt="" class="emi">
+					</div>
+					<h3>کلاس های هوشمند</h3>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- Events -->
+
+	<div class="events page_section">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>آخرین اخبار ما</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="event_items">
+
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+
+							<div class="col-lg-2 order-lg-1 order-2">
+								<div class="event_date d-flex flex-column align-items-center justify-content-center">
+									<div class="event_day">11 12</div>
+									<div class="event_month">آذر </div>
+								</div>
+							</div>
+							<div class="col-lg-6 order-lg-2 order-3">
+								<div class="event_content">
+									<div class="event_name"><a class="trans_200" href="#">کارنامه امتحانات میان ترم نیمسال اول</a></div>
+									<div class="event_location">به نامش و به یاریش</div>
+									<p></p>
+										به آگاهی می رساند کارنامه امتحانات میان ترم نیمسال اول تقدیم می شود: <br><br>زمان : یک شنبه و دوشنبه مورخ 11 و 12 آذرماه از ساعت 8 صبح لغایت 14 <br>
+										پیشاپیش از حضور ارزشمند و پی گیرانه شما، دوستان آینده نگر  به پاس عنایت ویژه شما به امور آموزشی و پرورشی دانش آموزان گرامی تشکر و قدردانی می نمایبم</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 order-lg-3 order-1">
+								<div class="event_image" >
+									<img src="icons/etelahie.jpg" alt="https://unsplash.com/@theunsteady5" style="border-radius: 10px;">
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+
+							<div class="col-lg-2 order-lg-1 order-2">
+								<div class="event_date d-flex flex-column align-items-center justify-content-center">
+									<div class="event_day">07</div>
+									<div class="event_month">آذر</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 order-lg-2 order-3">
+								<div class="event_content">
+									<div class="event_name"><a class="trans_200" href="#">برگزاری مانور زلزله</a></div>
+									<div class="event_location">با آرزوی تندرستی و شادکامی برای همگان  تا....... همیشه</div>
+									<p>برگزاری مانور زلزله برای افزایش مهارت های شناختی دانش آموزان گرامی.</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 order-lg-3 order-1">
+								<div class="event_image">
+									<img src="icons/manovr.jpg" alt="https://unsplash.com/@claybanks1989" style="border-radius: 10px;">
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+						</div>	
+					</div>
+				</div>
+
+			</div>
+				
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer" style="text-align: center;">
+		<div class="container">
+
+			<!-- Footer Content -->
+
+			<div class="footer_content">
+				<div class="row">
+
+					<!-- Footer Column - About -->
+					<div class="col-lg-3 footer_col">
+
+						<!-- Logo -->
+						<div class="logo_container" dir="rtl">
+							<div class="logo">
+								<span class="kkk">پرفسور رضا</span>
+							</div>
+						</div>
+
+						<p class="footer_about_text">دبیرستان دوره دوم پسرانه هوشمند پروفسور فضل‌الله رضا (مدرسه) در محله دیلمان رشت و خیابان بوستان ۱۳ واقع شده است. این مکان یکی از هفت مدرسه در محله دیلمان رشت می‌باشد و از نظر موقعیت جغرافیایی در نزدیکی کی جی بازار و همچنین پلی کلینیک دامپزشکی آهو، دبیرستان پسرانه پروفسور رضا، بورس سیگار شروین، تاکسی جام جم و لوازم قنادی کاویان پور قرار گرفته است.</p>
+
+					</div>
+
+					<!-- Footer Column - Menu -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">صفحه ها</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="index.html">خانه</a></li>
+								<li class="footer_list_item"><a href="teachers.html">درباره ما</a></li>
+								<li class="footer_list_item"><a href="elements.html">گالری</a></li>
+								<li class="footer_list_item"><a href="contact.html">ارتباط</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Usefull Links -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">لینک ها</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="https://www.instagram.com/pfrrezaschoolgil.02?igsh=M2N3N2ozdnVoNXE3">instagram</a></li>
+
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Contact -->
+
+					<div class="col-lg-3 footer_col" dir="rtl">
+						<div class="footer_column_title">ارتباط</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="icons/location_on.svg" alt="https://www.flaticon.com/authors/lucy-g" style="color: #48CAE4;">
+									</div>
+									
+رشت، دیلمان، جهار راه شهید بهشتی، خیابان میرقاسمی، بوستان13
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="icons/phone_iphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+									</div>
+									<span dir="ltr">013 32733320</span>
+								</li>
+								<li class="footer_contact_item">
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Footer Copyright -->
+
+			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center" dir="ltr">
+				<div class="footer_copyright">
+					<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made by Mohammad amin tavakoli
+
+		</div>
+	</footer>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
